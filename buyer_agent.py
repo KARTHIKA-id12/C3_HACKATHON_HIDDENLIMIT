@@ -34,7 +34,7 @@ class NegotiationResponse:
 class OllamaLanguageModel(language_model.LanguageModel):
     """Ollama implementation for Concordia language model"""
     
-    def __init__(self, model_name: str = "llama3.2"):
+    def __init__(self, model_name: str = "llama-3-8b"):
         self.model_name = model_name
         
     def sample_text(self, prompt: str, max_tokens: int = 150) -> str:
