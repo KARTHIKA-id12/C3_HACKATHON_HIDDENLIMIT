@@ -1,0 +1,4 @@
+git+https://github.com/google-deepmind/concordia.git
+ollama
+requests
+numpy
